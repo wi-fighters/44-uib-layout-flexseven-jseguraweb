@@ -65,17 +65,16 @@ body {
     .two,
     .six,
     .seven {
-        width: 100%;;
+        flex-basis: 100%;
     }
 
     .three,
     .four,
     .five {
-        width: 33.3%;
+        flex-basis: 33.3%;
     }
+    
 }
-
-
 
 @media screen and (min-width: 801px){
 
@@ -83,21 +82,11 @@ body {
         height: calc(100%/3);
     }
 
-    .box {
-        width: 100%;
-    }
-
     .one,
     .two,
     .six,
     .seven {
-        width: 50%;
-    }
-
-    .three,
-    .four,
-    .five {
-        width: 33.3%;
+        flex-basis: 50%;
     }
 
 }
